@@ -11,7 +11,7 @@
             rel="stylesheet">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-black text-white">
+    <body class="bg-black text-white pb-10">
         <div class="px-10">
             <nav class="flex justify-between items-center py-6 border-b border-white/10">
                 <div>
@@ -32,7 +32,7 @@
                 </div>
             </nav>
 
-            <main class="mt-10 mb-10 mx-auto max-w-[986px]">
+            <main class="mt-10 mx-auto max-w-[986px]">
                 {{ $slot }}
             </main>
         </div>
