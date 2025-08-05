@@ -15,6 +15,7 @@ use Illuminate\Notifications\Notifiable;
  * @mixin Builder
  *
  * @property int id
+ * @property Employer employer
  * @property string name
  * @property string email
  * @property string password
