@@ -1,3 +1,3 @@
-@props(['width' => 90])
+@props(['employer', 'width' => 90])
 
-<img src="https://placehold.jp/{{ $width }}x{{ $width }}.png" alt="employer logo" class="rounded-xl"/>
+<img src="{{ asset($employer->logo) }}" alt="employer logo" class="rounded-xl" width="{{ $width }}"/>
